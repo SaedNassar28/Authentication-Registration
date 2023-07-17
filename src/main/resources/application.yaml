@@ -1,0 +1,18 @@
+server:
+  port: 3001
+
+spring:
+  main:
+    web-application-type: servlet
+  datasource:
+    url: jdbc:mysql://localhost:6033/authentication
+    username: root
+    password: Saedhappy@2020
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
